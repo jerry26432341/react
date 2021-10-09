@@ -1,0 +1,22 @@
+ul.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+ul.menu li a {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+ul.menu li a:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.menu .active {
+  background-color: red;
+  color: #fff;
+}
